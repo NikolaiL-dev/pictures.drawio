@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T18:41:20.518Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="wQ0_3S4IWY2ZYmTP3ydn" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T08:32:13.684Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="ladt_qMHRGUMb8MsiByt" version="22.1.21" type="github">
   <diagram name="Page-1" id="J7fKQimHqGC5aI94PYtP">
     <mxGraphModel dx="1434" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
         <mxCell id="2H0FY_2uMuG2iU7N1IUy-37" value="Разметка клеточного типа для каждой клетки" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1210" y="471" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-38" value="&lt;b&gt;Celltypist&lt;/b&gt;: встроенное шкалирование, прогнозирование клеточных типов, использование графа ближайших соседей, прогнозирование, голосование " style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-38" value="&lt;b&gt;Celltypist&lt;/b&gt;: встроенное шкалирование, прогнозирование клеточных типов, использование графа ближайших соседей, голосование " style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="922" y="460" width="195" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2H0FY_2uMuG2iU7N1IUy-39" value="Создание копии объекта, основанной на сырых данных" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
