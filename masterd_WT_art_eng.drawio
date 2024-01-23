@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T16:52:31.022Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="0W8ACmGrwBYATUdsDPfU" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T17:42:06.544Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="Oxofdzgi_rePzwQBLa7_" version="22.1.21" type="github">
   <diagram name="Page-1" id="J7fKQimHqGC5aI94PYtP">
     <mxGraphModel dx="1434" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="b-OOIqzu973AOTidyFCH-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="677" y="42.25" width="308" height="112.25" as="geometry" />
+        </mxCell>
+        <mxCell id="b-OOIqzu973AOTidyFCH-6" value="&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;dashed=1;size=0.3954659949622166;" vertex="1" parent="b-OOIqzu973AOTidyFCH-8">
+          <mxGeometry y="13" width="308" height="99.25" as="geometry" />
+        </mxCell>
+        <mxCell id="b-OOIqzu973AOTidyFCH-7" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;categorical_covariate_keys=[&#39;Sample&#39;],&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;continuous_covariate_keys=[&#39;pct_counts_mt&#39;,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &#39;total_counts&#39;]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b-OOIqzu973AOTidyFCH-8">
+          <mxGeometry x="9.25" width="290" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="2H0FY_2uMuG2iU7N1IUy-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;entryX=-0.003;entryY=0.628;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2H0FY_2uMuG2iU7N1IUy-4" target="2H0FY_2uMuG2iU7N1IUy-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="210" as="targetPoint" />
@@ -12,8 +21,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-21" value="" style="shape=offPageConnector;whiteSpace=wrap;html=1;rotation=-180;size=0.19230769230769232;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="63" y="240" width="350" height="260" as="geometry" />
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-21" value="" style="shape=offPageConnector;whiteSpace=wrap;html=1;rotation=-180;size=0.15625;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="63" y="240" width="350" height="320" as="geometry" />
         </mxCell>
         <mxCell id="2H0FY_2uMuG2iU7N1IUy-9" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="40" y="80" width="110" height="160" as="geometry" />
@@ -51,8 +60,8 @@
         <mxCell id="2H0FY_2uMuG2iU7N1IUy-11" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#f9f7ed;shape=mxgraph.mscae.enterprise.filter" parent="2H0FY_2uMuG2iU7N1IUy-18" vertex="1">
           <mxGeometry x="12.220000000000027" y="10" width="55.56" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-20" value="&lt;ul&gt;&lt;li&gt;&lt;div align=&quot;justify&quot;&gt;Клетки, в которых экспрессируется&amp;nbsp; менее 200 или более 6 000 генов, удаляются.&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;div align=&quot;justify&quot;&gt;Клетки, содержащие более 40 000 каунтов, удаляются.&lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div align=&quot;justify&quot;&gt;&lt;ul&gt;&lt;li&gt;Гены, которые не экспрессированы ни в одной клетке, удаляются.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Клетки, в которых процент митохондриальных каунтов превышает 20% от общего числа каунтов в клетке, удаляются. &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Исключаются все митохондриальные гены&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="240" width="350" height="300" as="geometry" />
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-20" value="&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;Cells:&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;ul&gt;&lt;li&gt;&lt;div align=&quot;justify&quot;&gt;Cells expressing fewer than 200 and more than 6&lt;font color=&quot;#ffffff&quot;&gt;_&lt;/font&gt;000 genes were excluded. &lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;div align=&quot;justify&quot;&gt;Cells with total counts more than 40&lt;font color=&quot;#ffffff&quot;&gt;_&lt;/font&gt;000 were excluded.&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Cells with percent of mitochondrial DNA gene expression more than 20% were excluded. &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;Genes:&lt;/div&gt;&lt;/blockquote&gt;&lt;div align=&quot;justify&quot;&gt;&lt;blockquote&gt;&lt;ul&gt;&lt;li&gt;All genes expressed in fewer than one cell were removed.&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;ul&gt;&lt;li&gt;All mitochondrial genes were excluded.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="51" y="276" width="350" height="300" as="geometry" />
         </mxCell>
         <mxCell id="2H0FY_2uMuG2iU7N1IUy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2H0FY_2uMuG2iU7N1IUy-25" target="2H0FY_2uMuG2iU7N1IUy-33" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -62,56 +71,56 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-25" value="&lt;div&gt;Образцы&lt;/div&gt;&lt;div&gt;конкатенируются&lt;/div&gt;&lt;div&gt;в один anndata&lt;/div&gt;&lt;div&gt;&amp;nbsp;объект&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-25" value="The samples are &lt;b&gt;concatenated&lt;/b&gt; into a anndata object" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="167.5" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-31" value="&lt;div&gt;Обучение &lt;b&gt;scVI&lt;/b&gt; модели, удаление технического шума между образцами и снижение размерности&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="790" y="159.5" width="140" height="82.5" as="geometry" />
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-31" value="&lt;div&gt;Training the &lt;b&gt;scVI&lt;/b&gt; model, &lt;b&gt;removing technical noise&lt;/b&gt; between samples and&amp;nbsp;&lt;b&gt; dimensionality reduction&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="756" y="153" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2H0FY_2uMuG2iU7N1IUy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2H0FY_2uMuG2iU7N1IUy-32" target="2H0FY_2uMuG2iU7N1IUy-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-32" value="Построение графа ближайших соседей, UMAP преобразование " style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="962" y="160" width="110" height="82.5" as="geometry" />
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-32" value="&lt;div&gt;&lt;b&gt;Building a graph of nearest neighbors&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;(n_neighbors = 18, &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;metrics = &#39;&lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;/code&gt;&lt;span&gt;&lt;/span&gt;&lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;/code&gt;&lt;span&gt;&lt;/span&gt;cosine&#39;)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;UMAP transformation&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="930" y="140" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-33" value="Построение UMAP визуализации" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="1225" y="162.5" width="110" height="80" as="geometry" />
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-33" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;plot UMAP&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1248" y="162.5" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2H0FY_2uMuG2iU7N1IUy-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2H0FY_2uMuG2iU7N1IUy-22" target="2H0FY_2uMuG2iU7N1IUy-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-22" value="&lt;div&gt;Объединенные данные&amp;nbsp;&lt;/div&gt;&lt;div&gt;(H003, H004, H007, H009)&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-22" value="&lt;div&gt;&lt;b&gt;Combined data&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;(H003, H004, H007, H009)&lt;/b&gt;&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;gradientDirection=north;fillStyle=auto;strokeWidth=1;perimeterSpacing=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="130" width="100" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2H0FY_2uMuG2iU7N1IUy-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2H0FY_2uMuG2iU7N1IUy-35" target="2H0FY_2uMuG2iU7N1IUy-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2H0FY_2uMuG2iU7N1IUy-35" value="&lt;div&gt;Adult_Mouse&lt;/div&gt;&lt;div&gt;_Gut.pkl&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="460" width="80" height="100" as="geometry" />
+          <mxGeometry x="783" y="489" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-36" value="&lt;div align=&quot;center&quot;&gt;Нормализация CPM&amp;nbsp;&lt;div&gt;(целевая сумма 1e4;&lt;i&gt; normalize_per_cell&lt;/i&gt;)&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;логарифмирование&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="949.5" y="359" width="140" height="81" as="geometry" />
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-36" value="&lt;b&gt;Normalization&lt;/b&gt;&lt;br&gt;&lt;div&gt;(&lt;font face=&quot;Courier New&quot;&gt;target_sum = 1e4, normalize_per_cell&lt;/font&gt;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;log-tarnsformation&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="932.5" y="388" width="140" height="81" as="geometry" />
         </mxCell>
         <mxCell id="2H0FY_2uMuG2iU7N1IUy-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="2H0FY_2uMuG2iU7N1IUy-37" target="2H0FY_2uMuG2iU7N1IUy-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-37" value="Разметка клеточного типа для каждой клетки" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="471" width="140" height="80" as="geometry" />
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-37" value="&lt;b&gt;Cell type markup for each cell&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1233" y="500" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-38" value="&lt;b&gt;Celltypist&lt;/b&gt;: встроенное шкалирование, прогнозирование клеточных типов, использование графа ближайших соседей, голосование " style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="922" y="460" width="195" height="100" as="geometry" />
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-38" value="&lt;b&gt;Celltypist&lt;/b&gt;: built-in scaling, prediction of cell types, using the nearest neighbor graph, voting" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="905" y="489" width="195" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-39" value="Создание копии объекта, основанной на сырых данных" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="949.5" y="259" width="140" height="80" as="geometry" />
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-39" value="Creating a copy of an object based on &quot;raw&quot; data" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="932.5" y="288" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-41" value="&lt;div&gt;Нормализация CPM&amp;nbsp;&lt;/div&gt;&lt;div&gt;(целевая сумма 1e4; &lt;i&gt;normalize_total&lt;/i&gt;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Логарифмирование&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="159.25" width="130" height="82.5" as="geometry" />
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-41" value="&lt;b&gt;Normalization&lt;/b&gt;&lt;br&gt;&lt;div&gt;(&lt;font face=&quot;Courier New&quot;&gt;target_sum = 1e4, normalize_total&lt;/font&gt;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;log-tarnsformation&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="159.25" width="130" height="82.5" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-45" value="Создание нового слоя, содержащего &quot;сырые&quot; данные " style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="710" y="259" width="140" height="80" as="geometry" />
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-45" value="Creating a new layer containing &quot;raw&quot; data" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="594" y="288" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2H0FY_2uMuG2iU7N1IUy-47" value="&lt;div&gt;Шкалирование&lt;/div&gt;&lt;div&gt;(&lt;strong&gt;Z-оценка, обрезка до&amp;nbsp;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;max = 10&lt;/strong&gt;)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="1093" y="161" width="110" height="82.5" as="geometry" />
+        <mxCell id="2H0FY_2uMuG2iU7N1IUy-47" value="&lt;b&gt;Scaling&lt;/b&gt;&lt;br&gt;(Z-transform,&lt;br&gt;acceptable maximum is 10)" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1107" y="161" width="110" height="82.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
