@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T15:08:04.334Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="WPM37GkvlCEziRld44O0" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T15:09:53.706Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="U28lxHyve6XJ_DnxeUZZ" version="24.3.1" type="github">
   <diagram name="Page-1" id="klki8HAMNRLUYUzqoXMR">
-    <mxGraphModel dx="2284" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mCn4RHrA8flqjWo2P5Nm-230" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=0.5;arcSize=4;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="-2" y="180" width="845" height="180" as="geometry" />
+        <mxCell id="mCn4RHrA8flqjWo2P5Nm-230" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=0.5;arcSize=4;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="3" y="180" width="845" height="180" as="geometry" />
         </mxCell>
         <mxCell id="mCn4RHrA8flqjWo2P5Nm-262" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Адаптер&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.3;shadow=0;fillStyle=hatch;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="556" y="232" width="67" height="40" as="geometry" />
@@ -319,6 +319,9 @@
         </mxCell>
         <mxCell id="mCn4RHrA8flqjWo2P5Nm-265" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;i&gt;Размер фрагмента&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="343" y="323" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mCn4RHrA8flqjWo2P5Nm-266" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3" y="162" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
