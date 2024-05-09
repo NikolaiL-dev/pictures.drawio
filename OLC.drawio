@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T23:21:18.800Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="wfVfcFfuZLRBi9p6y5hm" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-09T23:32:21.249Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="j7L6ovN6_xQw_kOaiobx" version="24.3.1" type="github">
   <diagram name="Page-1" id="3ytib0Ygw_xLYDBIZhBg">
     <mxGraphModel dx="1434" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -587,8 +587,8 @@
         <mxCell id="IgfFBBctw5f2I0VB_9IK-94" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Гамильтонов путь 1&lt;/b&gt;: R&lt;sub&gt;4&lt;/sub&gt; &lt;/font&gt;→ R&lt;sub&gt;1&lt;/sub&gt; → R&lt;sub&gt;8&lt;/sub&gt; → R&lt;sub&gt;7&lt;/sub&gt; → R&lt;sub&gt;3&lt;/sub&gt; → R&lt;sub&gt;5&lt;/sub&gt; → R&lt;sub&gt;2&lt;/sub&gt; → R&lt;sub&gt;6&lt;/sub&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Гамильтонов путь 2&lt;/b&gt;: &lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;R&lt;sub&gt;4&lt;/sub&gt; &lt;/font&gt;→ R&lt;sub&gt;1&lt;/sub&gt; → R&lt;sub&gt;8&lt;/sub&gt; → R&lt;sub&gt;7&lt;/sub&gt; → R&lt;sub&gt;3&lt;/sub&gt; → R&lt;sub&gt;5&lt;/sub&gt; → R&lt;sub&gt;6&lt;/sub&gt; → R&lt;sub&gt;2&lt;/sub&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="611" width="750" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IgfFBBctw5f2I0VB_9IK-96" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Матричное представление графа перекрытий&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;, топологическая сортировка и поиск &lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Гамильтонова пути&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="347" width="750" height="30" as="geometry" />
+        <mxCell id="IgfFBBctw5f2I0VB_9IK-96" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Б) Матричное представление графа перекрытий&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;,&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;топологическая сортировка и поиск &lt;/font&gt;&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;i&gt;Гамильтонова пути&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="351" width="750" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IgfFBBctw5f2I0VB_9IK-97" value="" style="endArrow=none;html=1;strokeWidth=0.5;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1407,7 +1407,7 @@
         <mxCell id="IgfFBBctw5f2I0VB_9IK-546" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;-R&lt;sub&gt;6&lt;/sub&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="655.5" y="528.5" width="31" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="IgfFBBctw5f2I0VB_9IK-549" value="&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Построение графа перекрытий&lt;sub&gt;&lt;br&gt;&lt;/sub&gt;&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
+        <mxCell id="IgfFBBctw5f2I0VB_9IK-549" value="&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;А) Построение графа перекрытий&lt;sub&gt;&lt;br&gt;&lt;/sub&gt;&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
           <mxGeometry x="12" y="40" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IgfFBBctw5f2I0VB_9IK-552" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
@@ -1416,7 +1416,7 @@
             <mxPoint x="239.5" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IgfFBBctw5f2I0VB_9IK-618" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;i&gt;Получение консенсусной последовательности контига&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
+        <mxCell id="IgfFBBctw5f2I0VB_9IK-618" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;i&gt;В) Получение консенсусной последовательности контига&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
           <mxGeometry x="4.09" y="684" width="750" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IgfFBBctw5f2I0VB_9IK-621" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.767;entryY=0.224;entryDx=0;entryDy=0;entryPerimeter=0;opacity=50;endArrow=open;endFill=0;" edge="1" parent="1" source="IgfFBBctw5f2I0VB_9IK-620" target="IgfFBBctw5f2I0VB_9IK-237">
