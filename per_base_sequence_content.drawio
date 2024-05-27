@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T08:43:23.139Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="JOF1FaA7x9uRrnfFEKr_" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T08:44:48.621Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="XTqBWR6DaFqSuMwFccDb" version="24.4.8" type="github">
   <diagram name="Page-1" id="wBlTxJPQ87qgLKmhoKhc">
     <mxGraphModel dx="1434" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -27,17 +27,29 @@
             <mxPoint x="390" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m7p723sp2VWyw1wcXWDN-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Корректный состав нуклеотидов&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="m7p723sp2VWyw1wcXWDN-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Корректный состав нуклеотидов&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="291" y="243" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m7p723sp2VWyw1wcXWDN-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Смещенный состав нуклеотидов &lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+        <mxCell id="m7p723sp2VWyw1wcXWDN-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Смещенный состав нуклеотидов &lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="60" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5YUZ5UB9539y6sh-7Us8-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Артефакт фрагментации транспозонами&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;(не обрезается)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="5YUZ5UB9539y6sh-7Us8-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Артефакт фрагментации транспозонами&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;(не обрезается)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="130" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5YUZ5UB9539y6sh-7Us8-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Технический артефакт: последовательность адаптера или падение качества прочтения&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;(обрезается)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="103" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5YUZ5UB9539y6sh-7Us8-4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="90" as="sourcePoint" />
+            <mxPoint x="430" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YUZ5UB9539y6sh-7Us8-5" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="90" as="sourcePoint" />
+            <mxPoint x="300" y="130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
